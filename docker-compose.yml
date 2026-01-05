@@ -1,7 +1,7 @@
-version: '3.8'
+version: "3.8"
 services:
   postgres:
-    image: postgres:16  # Latest stable as of 2026
+    image: postgres:16 # Latest stable as of 2026
     restart: always
     environment:
       POSTGRES_DB: cartzilla
